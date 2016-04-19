@@ -30,20 +30,24 @@ export default React.createClass({
         </div>
 
         <div className="event-study-cta row">
-          <div className="col col-md-6">
-            <img src="/assets/img/home-events@2x.jpg"/>
-            <div className="col">
-              <h3>Events</h3>
-              <p>We offer a series of sprints and workshops that facilitate in-person collaboration and remote contribution to open source projects. We also host regular Community and Project Calls that highlight what the community is up to.</p>
-              <a className="btn" href="#TODO">Find An Event</a>
+          <div className="col-md-6">
+            <div className="row">
+              <img src="/assets/img/home-events@2x.jpg"/>
+              <div className="col-xs-10 col-xs-push-1">
+                <h3>Events</h3>
+                <p>We offer a series of sprints and workshops that facilitate in-person collaboration and remote contribution to open source projects. We also host regular Community and Project Calls that highlight what the community is up to.</p>
+                <a className="btn m-b-2" href="#TODO">Find An Event</a>
+              </div>
             </div>
           </div>
-          <div className="col col-md-6">
-            <img src="/assets/img/home-studygroups@2x.jpg"/>
-            <div className="col">
-              <h3>Study Groups</h3>
-              <p>Connect with like-minded researchers at a regular, recurring Study Group session on your campus. If there’s not a Study Group on your campus, help start one!</p>
-              <a className="btn" href="#TODO">Join A Group</a>
+          <div className="col-md-6">
+            <div className="row">
+              <img src="/assets/img/home-studygroups@2x.jpg"/>
+              <div className="col-xs-10 col-xs-push-1">
+                <h3>Study Groups</h3>
+                <p>Connect with like-minded researchers at a regular, recurring Study Group session on your campus. If there’s not a Study Group on your campus, help start one!</p>
+                <a className="btn m-b-2" href="#TODO">Join A Group</a>
+              </div>
             </div>
           </div>
         </div>
