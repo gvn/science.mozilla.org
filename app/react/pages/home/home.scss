@@ -79,4 +79,47 @@
       }
     }
   }
+
+  .event-study-cta {
+    color: $white;
+
+    > .col {
+      padding: 0 0 5rem;
+
+      .col {
+        padding: 0 5%;
+
+        @media (min-width: $bp-md) {
+          padding: 0 10%;
+        }
+      }
+    }
+
+    img {
+      width: 100%;
+    }
+
+    h3 {
+      color: $white;
+    }
+
+    p {
+      font-size: 0.9375rem;
+      line-height: 1.5em;
+    }
+
+    .btn {
+      background: none;
+      border: 0.0625rem solid $white;
+      color: $white;
+    }
+
+    > :nth-child(1) {
+      background: lighten($mobile-blue, 15%);
+    }
+
+    > :nth-child(2) {
+      background: lighten($nightly-blue, 15%);
+    }
+  }
 }
