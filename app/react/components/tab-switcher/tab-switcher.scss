@@ -1,0 +1,51 @@
+.tab-switcher {
+  .tabs {
+    display: flex;
+
+    button {
+      &:first-child {
+        margin-left: 0;
+      }
+
+      &:last-child {
+        margin-right: 0;
+      }
+
+      &.active {
+        background: $off-white;
+        color: inherit;
+      }
+
+      border: 0;
+      flex: 1;
+      margin: 0 0.5rem;
+      text-transform: none;
+      color: $white;
+      background: rgba($off-white, 0.2);
+    }
+  }
+
+  &.inline .tabs {
+    button {
+      background: lighten($developer-blue, 40%);
+      color: $developer-blue;
+
+      &.active {
+        border: 0.0625rem solid $developer-blue;
+        border-bottom: $off-white;
+        background: $off-white;
+        margin-bottom: -0.0625rem;
+      }
+    }
+
+    border-bottom: 0.0625rem solid $developer-blue;
+  }
+
+  .panel {
+    display: none;
+
+    &.active {
+      display: block;
+    }
+  }
+}
